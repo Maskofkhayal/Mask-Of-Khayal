@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mask of Khayal — Reflect Your Power</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; background: #000; color: #fff; overflow-x: hidden; }
+    .gold { color: #C0A060; }
+    .btn {
+      border: 2px solid #C0A060;
+      color: #C0A060;
+      padding: 0.75rem 2rem;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .btn:hover { background: #C0A060; color: #000; box-shadow: 0 0 15px #C0A060; }
+    .fade { animation: fadeIn 1.2s ease-in; }
+    @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="h-screen flex flex-col items-center justify-center text-center bg-black fade">
+    <h1 class="text-5xl md:text-7xl font-bold mb-6 shimmer">REFLECT YOUR POWER.</h1>
+    <p class="gold text-2xl mb-8">ONLY IN BLACK.</p>
+    <a href="#collection" class="btn">Shop Now</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20 bg-[#111] text-center fade">
+    <h2 class="text-4xl font-bold mb-6">WHO WE ARE.</h2>
+    <p class="text-gray-300 max-w-2xl mx-auto text-lg leading-relaxed">
+      Mask of Khayal is a monochrome fashion brand redefining silent confidence.  
+      Every piece reflects strength, mystery, and individuality —  
+      <span class="gold">premium streetwear made only in black.</span>
+    </p>
+  </section>
+
+  <!-- COLLECTION -->
+  <section id="collection" class="py-20 bg-black fade">
+    <h2 class="text-4xl font-bold text-center mb-12">COLLECTION</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-6 md:px-20">
+      <div class="bg-[#1a1a1a] p-6 rounded-xl text-center hover:scale-105 transition">
+        <img src="https://via.placeholder.com/400x500/000000/FFFFFF?text=Black+Hoodie" class="w-full rounded mb-4">
+        <h3 class="text-xl font-bold">Black Hoodie</h3>
+        <p class="gold mb-4">888 EGP</p>
+        <button class="btn">Reflect Your Power</button>
+      </div>
+
+      <div class="bg-[#1a1a1a] p-6 rounded-xl text-center hover:scale-105 transition">
+        <img src="https://via.placeholder.com/400x500/000000/FFFFFF?text=Black+Pants" class="w-full rounded mb-4">
+        <h3 class="text-xl font-bold">Black Pants</h3>
+        <p class="gold mb-4">888 EGP</p>
+        <button class="btn">Reflect Your Power</button>
+      </div>
+
+      <div class="bg-[#1a1a1a] p-6 rounded-xl text-center hover:scale-105 transition">
+        <img src="https://via.placeholder.com/400x500/000000/FFFFFF?text=Black+Tee" class="w-full rounded mb-4">
+        <h3 class="text-xl font-bold">Black Tee</h3>
+        <p class="gold mb-4">777 EGP</p>
+        <button class="btn">Reflect Your Power</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-[#111] text-center fade">
+    <h2 class="text-4xl font-bold mb-8">CONNECT WITH US</h2>
+    <div class="flex justify-center flex-wrap gap-8 text-lg">
+      <a href="https://wa.me/message/GQXQZCNR7L4EG1" target="_blank" class="hover:text-[#C0A060]">WhatsApp</a>
+      <a href="https://www.instagram.com/mask.of.khayal" target="_blank" class="hover:text-[#C0A060]">Instagram</a>
+      <a href="https://www.facebook.com/share/1CSPpxE1zj/" target="_blank" class="hover:text-[#C0A060]">Facebook</a>
+      <a href="https://www.tiktok.com/@mask.of.khayal" target="_blank" class="hover:text-[#C0A060]">TikTok</a>
+      <a href="mailto:darkkhayal@gmail.com" class="hover:text-[#C0A060]">Email</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-black py-10 text-center border-t border-[#222] fade">
+    <h3 class="text-2xl font-bold gold mb-2">Mask of Khayal</h3>
+    <p class="text-gray-400 text-sm">© 2025 Mask of Khayal. REFLECT YOUR POWER.</p>
+  </footer>
+
+</body>
+</html>
